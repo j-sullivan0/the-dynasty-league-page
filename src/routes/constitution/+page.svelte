@@ -96,13 +96,12 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">THE DYNASTY LEAGUE CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
@@ -160,28 +159,13 @@
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>SUPERFLEX (QB/RB/WR/TE)</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>16 Bench</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
-    
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-            </table>
-        </div>
-
+    <p>5 Taxi Squad (Maximum 2 years' experience. Players can be moved in and out of Taxi Squad during preseason. At the start of the first game, players cannot be moved into Taxi Squad, only out.)</p>
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
