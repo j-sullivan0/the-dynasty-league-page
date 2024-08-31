@@ -163,11 +163,11 @@
     
     <p>16 Bench</p>
 
-    <p>5 Taxi Squad (Maximum 2 years' experience. Players can be moved in and out of Taxi Squad during preseason. At the start of the first game, players cannot be moved into Taxi Squad, only out.)</p>
+    <p>5 Taxi Squad (Maximum 2 years' experience. Players can be moved in and out of Taxi Squad during preseason. At the start of the first game of the season, players cannot be moved into Taxi Squad, only out.)</p>
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process in 2 days from trade submission, and will be cancelled if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
 
 
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Deadline</h4>
@@ -177,7 +177,7 @@
     
     <h4 bind:this={oneTwoTwo}>1.2.2 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2024 season you cannot trade any picks in or after the 2028 draft. You may only trade FAAB $ from the current season.</p>
+        <p>Draft picks that are more than 3 drafts away will not be able be traded. For example, during the 2024 season, a 2028 draft pick cannot be traded. FAAB $ may only be traded from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Veto/Trade Process</h4>
@@ -190,7 +190,7 @@
     
     <p>FAAB waiver system. Each team will begin the season with $100. $0 bids are allowed.</p>
 
-    <p>Off-Season waviers clear daily at 3am. In-season waivers clear Wednesday at 3am, and then daily at 3am until the start of the player's game.</p>
+    <p>Off-Season waivers clear daily at 3am. In-season waivers clear Wednesday at 3am, and then daily at 3am until the start of the player's game.</p>
 
     <p>FAAB budgets will reset each season in January.</p>
     
@@ -201,7 +201,7 @@
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rookie drafts will consist of 5 round of drafting, with 2.5 minutes alotted for each pick. Rosters can have extra players on their bench, but must be cut down to the maximum allowable players before further roster moves can be made.</p>
+    <p>Rookie drafts will consist of 5 rounds, with 2.5 minutes alotted for each pick. Rosters can have extra players on their bench after the draft, but must be cut down to the maximum allowable players before further roster moves can be made.</p>
     <p>Undrafted rookies will become a part of the free-agent pool, and can be claimed via waivers.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
@@ -232,18 +232,18 @@
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally not grounds for removal.</p>
+    <p>Short of continuously failing to set a valid lineup, confirmed collusion, or failure to pay league dues, no manager can be removed against their will. Participation is strongly encouraged through the league chat, trade offers, and the waiver wire, but is generally not grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisioners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <p>When a manager needs to be replaced, the commissioners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>In the event that a manager chooses to quit the league or is removed by a commissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
